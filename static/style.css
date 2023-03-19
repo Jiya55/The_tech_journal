@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+    background-color: rgb(7, 7, 55);
+    font-family: sans-serif;
+}
+.logo {
+    height:150px;
+    width: 150px;
+}
+.logo:hover{
+        background-color: rgb(27, 26, 96);
+}
+.header {
+    width:100%;
+    height:150px;
+    background-color: rgb(32, 43, 106);
+}
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    height:150px;
+}
+.menu_item{
+    display:inline-block;
+    color: rgb(222, 184, 33);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    bottom:75px;
+    padding:70px 70px;
+}
+.menu_item:hover{
+    background-color: rgb(27, 26, 96);
+}
+.banner{
+    width:100%;
+    text-align: center;
+    background-color: rgb(7, 7, 55);
+    color: rgb(222, 184, 33);
+    margin-top:10px;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    margin: 20px;
+    display:inline-block;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(250, 215, 44, 0.556);
+  }
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+  }
+.bigger_card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 600px;
+    margin: 20px;
+    margin-left:205px;
+    display:inline-block;
+  }
+.p_img{
+    width: 100%;
+}
+.about{
+    width:1000px;
+    margin-left:40px;
+    text-align: center;
+}
+.tj_img{
+    height:500px;
+}
+a {
+    color:rgb(13, 11, 1);
+}
