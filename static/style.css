@@ -5,7 +5,7 @@ body{
 }
 .logo {
     height:150px;
-    width: 150px;
+    width:100%;
 }
 .logo:hover{
         background-color: rgb(27, 26, 96);
@@ -24,13 +24,10 @@ body{
     height:150px;
 }
 .menu_item{
-    display:inline-block;
     color: rgb(222, 184, 33);
     text-align: center;
-    text-decoration: none;
-    position: relative;
-    bottom:75px;
-    padding:70px 70px;
+    padding-top:75px;
+    padding-bottom:75px;
 }
 .menu_item:hover{
     background-color: rgb(27, 26, 96);
@@ -66,7 +63,6 @@ body{
     transition: 0.3s;
     width: 600px;
     margin: 20px;
-    margin-left:205px;
     display:inline-block;
   }
 .p_img{
@@ -82,4 +78,29 @@ body{
 }
 a {
     color:rgb(13, 11, 1);
+}
+.about_me{
+    margin-left:20%;
+}
+
+
+@media only screen and (max-width:420px){
+    .logo{
+        height: 100px;
+    }
+    .header{
+        height:100px;
+    }
+    .menu{
+        height:100px;
+    }
+    .menu_item{
+        text-align: center;;
+        font-size: 15px;
+        padding-top: 25px;
+    }
+
+    .tj_img{
+        height: 300px;
+    }
 }

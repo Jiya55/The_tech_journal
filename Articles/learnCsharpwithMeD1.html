@@ -2,33 +2,35 @@
 <html>
 <head> 
     <link rel="stylesheet" href='..\static\style.css'>
-    <link rel="stylesheet" href='..\static\articles.css'>
+    <link rel="stylesheet" href='..\static\responsive.css'>
+    <link rel='stylesheet' href='..\static\articles.css'>
     <title>The Tech Journal</title>
     <link rel="icon" type="image/x-icon" href="..\content\favicon.png">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4390008796386667"
      crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class='header'>
-        <ul class='menu'>
-            <a href='..\index.html'><img class='logo' src='..\content\logo_transparent.png'></a>
-            <a href='..\index.html'><li class='menu_item'>  Home </li></a>
-            <a href='..\pages\all_articles.html'><li class='menu_item'> All Articles </li></a>
-            <a href='https://www.youtube.com/channel/UC_fwh64oeLaSm_XXAVQd6Mg/featured'><li class='menu_item'> Youtube Channel </li></a>
-            <a href='..\pages\about_me.html'><li class='menu_item'> About Me </li></a>
-        </ul>
-    </nav>
-    <div class='banner'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav class='header'>
+    <ul class='menu col-12 col-m-6'>
+        <a class='col-2 col-m-2' href='..\index.html'><img class='logo' src='..\content\logo_transparent.png'></a>
+        <a href='..\index.html'><li class='col-2 col-m-1 menu_item'>  Home </li></a>
+        <a href='..\pages\all_articles.html'><li class='col-3 col-m-1 menu_item'> All Articles </li></a>
+        <a href='..\pages\about_me.html'><li class=' col-3 col-m-1 menu_item'> About Me </li></a>
+        <a href='https://www.youtube.com/channel/UC_fwh64oeLaSm_XXAVQd6Mg/featured'><li class='col-2 col-m-1 menu_item'> Youtube Channel </li></a>
+    </ul>
+</nav>
+    <div class='col-12 col-m-6 banner'>
         <h2> Learn C# with me Day-1 </h2>
     </div>
-    <div class="bigger_card about">
+    <div class=" col-11 col-m-4 bigger_card about">
             <img class='p_img' src="..\content\BannerPage.jpeg" alt="Avatar">
         </div>
     <div class='content'>
     Microsoft's C# programming language is used to create back-end services, desktop programmes, video games, augmented and virtual reality (AR and VR), and interactive websites and mobile apps. C# runs on the.NET framework, which is a collection of tools and commands that allows you to create C# applications. Unlike Python and JavaScript, C# requires you to specify the data type for each variable in a programme. Providing a piece of data a type effectively instructs a computer what operations it can and cannot carry out on it. This method of coding helps developers in avoiding a vast class of mistakes that are prevalent in JavaScript and Python. C# programmes are created by defining objects that interact with one another, making code reusable and simple to manage. The C# code has the.cs file extension. The following code must be created in order to create a programme that prints Hello World.
-    <img class='code' src="..\content\helloworldCode.png">
+    <img class='p_img code col-12 col-m-6' src="..\content\helloworldCode.png">
     <br>We can also receive user input . ReadLine() is used to capture text that a user types into the console.The following code must be written to create a programme that asks the user for their age and prints it-
-    <img class='code' src="..\content\ageInputCode.png">
+    <img class='p_img code col-12 col-m-6' src="..\content\ageInputCode.png">
     <br>to run this, we need to run <b>dotnet</b> run in bash
 To make comments The comment must be added either after / or in the space between /* and */. Technologies built with C# are quick. The C# community is large. C# is employable
 <br>How to go off the platform with C#?<br>
