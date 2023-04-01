@@ -26,8 +26,8 @@ body{
 .menu_item{
     color: rgb(222, 184, 33);
     text-align: center;
-    padding-top:75px;
-    padding-bottom:75px;
+    padding-top:80px;
+    padding-bottom:70px;
 }
 .menu_item:hover{
     background-color: rgb(27, 26, 96);
@@ -97,7 +97,7 @@ a {
     .menu_item{
         text-align: center;;
         font-size: 15px;
-        padding-top: 25px;
+        padding-top: 35px;
     }
 
     .tj_img{
