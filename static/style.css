@@ -46,6 +46,8 @@ body{
     width: 300px;
     margin: 20px;
     display:inline-block;
+    overflow: hidden;
+    height:300px;
   }
   
   /* On mouse-over, add a deeper shadow */
